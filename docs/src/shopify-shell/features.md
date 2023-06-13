@@ -35,25 +35,23 @@ Modern speed optimization techniques applied.
 
 **Lazyload Components:**
  Each component either its plain js or vue , can be lazyloaded or import in demand.
- Check more in here: https://github.com/JingleBaba2023/Shopify-Shell/issues/19
+
 
 **Common chunks:**
 Components are reused or reference is provided if same component is being used in multiple places. 
 It is accomplished by creating a common chunk of the reused components.
 It doesn't allow code repetation, which means optimised production build.
-Check more in here: https://github.com/JingleBaba2023/Shopify-Shell/issues/18
+
 
 **Tree shaking:**
 We might have imported modules, either 3rd party or custom components that are imported but not being used. 
 Tree shaking refers to discard those import or any defined code that are not used(dead code). 
 This feature eliminate these dead codes.
-Check more in here: https://github.com/JingleBaba2023/Shopify-Shell/issues/17
+
 
 **Venodr chunks:**
 All the 3rd party modules, that are being used in codebase is seperated out to vendor chunks. 
 There is a rare chance for these modules to be updated, which in turns provides cacheing , so that these
 large files(3rd party modules) are not loaded every time, which means performance boost.
 
-**HMR:**
-Once files are uploaded to shopify using themekit, browser will autoreload the webpage.
-Check more in here: https://github.com/JingleBaba2023/Shopify-Shell/issues/20
+
