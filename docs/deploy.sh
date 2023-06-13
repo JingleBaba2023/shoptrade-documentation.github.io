@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-open https://shoptrade.github.io/shoptrade-documentation/
+open https://jinglebaba2023.github.io/shoptrade-documentation/
 # abort on errors
 set -e
 
