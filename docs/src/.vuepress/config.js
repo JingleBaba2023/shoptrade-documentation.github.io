@@ -5,7 +5,7 @@ module.exports = {
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
   title: "ShopTrade Documentation",
-  base: "/shopTrade-documentation",
+  base: "/shopTrade-documentation/",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
