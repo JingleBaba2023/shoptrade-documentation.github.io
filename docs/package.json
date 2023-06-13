@@ -1,0 +1,25 @@
+{
+  "name": "prismic-documentation",
+  "version": "0.0.1",
+  "description": "Anatta Design Knowledge sharing documentation",
+  "main": "index.js",
+  "authors": {
+    "name": "Unscripter",
+    "email": "amit@shoptrade.com"
+  },
+  "contributors": [
+    "@jingleBaba"
+  ],
+  "repository": "https://github.com/JingleBaba2023/shoptrade-documentation.git",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "vuepress-plugin-code-copy": "^1.0.6"
+  }
+}
