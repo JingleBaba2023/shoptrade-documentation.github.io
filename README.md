@@ -1,4 +1,4 @@
-# Anatta Documentation
+# ShopTrade Documentation
 
 ## Clone Project
 ``` 
