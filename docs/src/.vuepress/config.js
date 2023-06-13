@@ -63,7 +63,9 @@ module.exports = {
             'code-structure',
             'features',
             'commands',
-            'how-does-it-work'
+            'how-does-it-work',
+            'required-config-files',
+            'required-packages'
           ]
         }
       ],

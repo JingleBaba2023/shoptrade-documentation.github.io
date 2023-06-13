@@ -1,0 +1,88 @@
+
+# Required Packages
+
+Most of the required dependancies should be installed with yarn command. However there are few global dependencies which you have to install manually.
+
+<div class="block-space"></div>
+
+## NPM Packages 
+
+Copy the dependencies, devDependencies, sideEffects and scripts into package.json
+
+```
+{
+  "name": "shoptrade-Shopify-Development",
+  "version": "1.0.0",
+  "description": "Shopify theme development tool.",
+  "private": true,
+  "main": "webpack.config.js",
+  "sideEffects": [
+    "*.css",
+    "*.scss",
+    "*.vue"
+  ],
+  "scripts": {
+    "build": "webpack",
+    "deploy": "webpack && cd dist && shopify theme push",
+    "start": "NODE_ENV=development webpack --watch",
+    "eslint": "eslint 'src/js/**'",
+    "stylelint": "stylelint '**/*.scss'"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run eslint && npm run stylelint"
+    }
+  },
+  "keywords": [
+    "shopify",
+    "theme",
+    "webpack"
+  ],
+  "author": "@jingleBaba",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^3.2.31",
+    "vue-loader": "^17.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@shopify/theme-addresses": "^4.1.1",
+    "@shopify/theme-currency": "^4.1.1",
+    "@shopify/themekit": "^1.1.4",
+    "accoutrement": "^2.1.3",
+    "autoprefixer": "^10.4.4",
+    "babel-loader": "^8.1.0",
+    "browser-sync": "^2.27.9",
+    "copy-webpack-plugin": "^10.2.4",
+    "css-loader": "^6.7.1",
+    "dotenv": "^16.0.0",
+    "eslint": "^8.12.0",
+    "glob": "^7.1.6",
+    "husky": "^4.2.5",
+    "jquery": "^3.6.0",
+    "lazysizes": "^5.2.1",
+    "mini-css-extract-plugin": "^2.6.0",
+    "node-sass": "^7.0.1",
+    "postcss-loader": "^6.2.1",
+    "pre-commit": "^1.2.2",
+    "sass-loader": "^12.6.0",
+    "stylelint": "^14.6.1",
+    "stylelint-config-standard": "^25.0.0",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-shell-plugin-next": "^2.2.2",
+    "yaml": "^1.10.2"
+  }
+}
+
+```
+<div class="block-space"></div>
+
+## Global packages
+
+### Shopify-cli
+
+A cli from shopify for theme and app development. 
+To read more and installation [click here](https://shopify.dev/docs/themes/tools/cli)
