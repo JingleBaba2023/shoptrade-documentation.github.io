@@ -2,6 +2,11 @@
 
 Design tokens provide a robust design systems that require meaningful, readable, reusable code. These Sass utilities are designed to help define and manage your design tokens (colors, fonts, sizes, etc.).
 
+We are using [Accoutrement](https://www.npmjs.com/package/accoutrement) package to manage these sass tokens.
+Without this, we need to find a way to generate the scss tokens and so that it can be accessed using sass [maps](https://sass-lang.com/documentation/values/maps). 
+
+
+
 ## Folder Structure
 All these design token files reside inside a design token folder in shopify shell.
 <div class="block-space"></div>
