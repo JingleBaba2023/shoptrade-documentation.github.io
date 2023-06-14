@@ -20,6 +20,6 @@ git commit -m 'deploy'
 # git push -f https://github.com/JingleBaba2023/prismic-adaptor-integration.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/JingleBaba2023/shoptrade-documentation main:gh-pages
+git push -f https://github.com/JingleBaba2023/shoptrade-documentation master:gh-pages
 # git push -f git@github.com:JingleBaba2023/anatta-docs.git master:gh-pages
 cd -
