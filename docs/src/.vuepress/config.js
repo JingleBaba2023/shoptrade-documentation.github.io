@@ -48,6 +48,14 @@ module.exports = {
         link: "/design-tokens/",
       },
       {
+        text: "Project Setup",
+        link: "/project-setup/",
+      },
+      {
+        text: "Workflow",
+        link: "/workflow/",
+      },
+      {
         text: "Developer Guide",
         link: "/developer-guide/",
       },
@@ -79,6 +87,24 @@ module.exports = {
             'colors',
             'animations',
             'helper-mixins',
+          ],
+        },
+      ],
+      "/workflow/": [
+        {
+          title: "Workflow",
+          collapsable: false,
+          children: [
+            ''
+          ],
+        },
+      ],
+      "/project-setup/": [
+        {
+          title: "Project Setup",
+          collapsable: false,
+          children: [
+            ''
           ],
         },
       ],
